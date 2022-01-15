@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* font-family: 'Varela Round', sans-serif; */
+body {
+  margin: 0%;
+  text-align: center;
+  color: black;
+  background: rgb(226, 233, 252);
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  width: auto;
+  padding: 1vw 10vw;
+  background: hsla(217, 100%, 50%, 1);
+
+  background: radial-gradient(circle, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+  background: -moz-radial-gradient(circle, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+  background: -webkit-radial-gradient(circle, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+  border-radius: ;
+  color: whitesmoke;
+  margin: auto;
+  font-size: 4vw;
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: underline;
+}
+
+form {
+  margin: auto;
+  margin-top: 1vw;
+  width: 70%;
+}
+
+form input {
+  width: 80%;
+  border-radius: 5px;
+  font-size: 1vw;
+  padding: 1.5%;
+  border: none;
+}
+
+form button {
+  width: 15%;
+  padding: 1.5%;
+  background-color: hsla(217, 100%, 50%, 1);
+  transition: .1s;
+  color: whitesmoke;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1vw;
+  border-radius: 5px;
+  border: none;
+}
+
+form button:hover {
+  background-color: hsla(186, 100%, 69%, 1);
+  width: 15.5%; 
+  transition: .1s;
+}
+section {
+width: 70%;
+margin: auto;
+}
+
+ul {
+  width: 100%;
+  padding: 0%;
+}
+
+section ul li {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+section button {
+  padding: 0%;
+  border: none;
+  border-radius: 50%;
+  background-color: inherit;
+  display: inline-block; 
+  margin-right: .5%;
+}
+
+section button img {
+  height: 1.5vw;
+  width: 1.5vw;
+  transition: .1s;
+  display: inline-block; 
+}
+
+section button img:hover {
+  height: 2vw;
+  width: 2vw;
+  transition: .1s;
+}
+
+section span {
+  padding: 1%;
+  width: 90%;
+  background-color: rgba(245, 245, 245, 0.61);
+  border-radius: 5px;
+  font-size: 1vw;
+  display: inline-block; 
+}
+
+/* This is for the strike toggle in JS */
+.strike {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.514);
+}
