@@ -1,5 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 /* font-family: 'Varela Round', sans-serif; */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  body h1 {
+    width: auto;
+    padding: 1vw 10vw;
+    font-size: 12vw;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: underline;
+  }
+
+body form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  row-gap: 2vw;
+}
+
+  #input {
+    margin-right: 1vw;
+    width: 75vw;
+    height: 7vw;
+    border-radius: 5px;
+    font-size: 4vw;
+    padding: 1.5%;
+   
+  }
+
+  #inputButton {
+    width: 15vw;
+    height: 9.5vw;
+    padding: 1.5%;
+    font-size: 4vw;
+  }
+
+
+
+  body section {
+    width: 90%;
+    }
+    
+    body section button img {
+      height: 7vw;
+      width: 7vw;
+    }
+    
+    body section button img:hover {
+      height: 7vw;
+      width: 7vw;
+    } 
+    
+    body section span {
+      padding: 1%;
+      width: 90%;
+      background-color: rgba(245, 245, 245, 0.61);
+      border-radius: 5px;
+      font-size: 4vw;
+      display: inline-block; 
+    }
+
+}
+
 body {
   margin: 0%;
   text-align: center;
